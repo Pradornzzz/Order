@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบสั่งซื้อเสื้อกีฬาสี</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* ป้องกัน scrollbar ซ้อนกัน */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* ทำให้ body สูงเต็มหน้าจอ */
+            background-color: #f0f0f0; /* สีพื้นหลังเผื่อไว้ */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh; /* ทำให้ iframe สูงเต็มหน้าจอ */
+            border: none; /* ไม่มีขอบ iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbzB2BEeMu0EFii8inUKqrtVZdIG_mogE0XrbvNzDMGPIMmiyGYDnNSyJ3dgPwI5cgiP/exec" title="App Script ของฉัน"></iframe>
+</body>
+</html>
